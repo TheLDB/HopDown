@@ -46,7 +46,7 @@ const DocumentEditor = () => {
     <div className="w-screen h-screen">
       {/* // * Toolbar */}
       <div className="w-full h-28">
-        <Toolbar id={id as string} />
+        <Toolbar id={id as string} markdown={markdown} />
       </div>
       {/* // * Content Section (editor & preview) */}
       <div className="w-full h-[calc(100%-7rem)] flex">
